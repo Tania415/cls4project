@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: #333;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+header{
+	padding: 40px 0;
+}
+
+.container {
+	width: calc(100% - 200px);
+    margin: auto;
+ }
+
+.flex {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-1 {
+	width: 100%;
+	flex: 0 0 auto;
+	padding: 100px;
+}
+.col-2 {
+	width: 50%;
+	flex: 0 0 auto;
+	padding: 50px;
+}
+
+.padd-left {
+   padding-left: 100px;
+}
+
+.padd-right {
+    padding-right: 100px;
+}
+
+.logo {
+	width: 15%;
+	flex: 0 0 auto;
+
+}
+
+.logo a {}
+.logo a img {}
+
+nav {
+	width: 85%;
+	flex: 0 0 auto;
+}
+
+nav ul {
+	justify-content: flex-end;
+}
+
+nav ul li {}
+nav ul li a {
+	color: #333;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: block;
+	padding: 10px 30px;
+}
+nav ul li a:hover{
+	background: #222;
+    color: white;
+}
+
+/** banner section **/
+.banner-section{}
+
+.banner-section img {
+     width: 100%;
+}
+
+/** blog section **/
+
+.blog-section {}
+
+article {}
+article span {
+	text-transform: uppercase;
+    color: #3333338c;
+    display: block;
+}
+article a {
+	text-decoration: none;
+    color: #3333338c;
+}
+article h1 {
+	font-size: 28px;
+    font-weight: 500;
+    padding: 18px 0;
+}
+article h1 a {
+	text-decoration: none;
+	color: #000000b8;
+
+}
+article h1 a:hover{}
+
+article p {
+	font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+article img {
+	width: 100%;
+}
+
+/** footer **/
+
+footer {
+	background-color: #8080801a;
+}
+
+footer .col-2 {
+	padding: 25px 90px;
+}
+
+ul.footer-item {}
+ul.footer-item li {}
+ul.footer-item  li a {
+   color: #0000009e;
+   display: block;
+   padding: 5px 16px;
+   font-size: 15px;
+   text-transform: initial;
+   text-decoration: none;
+}
+ul.footer-item li a:hover{}
+
+ul.icon-link {
+	justify-content: flex-end;
+}
+ul.icon-link li{}
+ul.icon-link li span{
+	color: #0000009e;
+   display: block;
+   padding-left: 20px;
+   font-size: 15px;
+   text-transform: initial;
+}
+ul.icon-link li a{
+	color: #0000009e;
+   display: block;
+   padding-left: 20px;;
+   font-size: 15px;
+   text-transform: initial;
+   text-decoration: none;
+}
+ul.icon-link li a:hover{
+	background: #0000009e;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
